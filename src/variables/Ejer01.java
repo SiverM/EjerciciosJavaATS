@@ -1,14 +1,15 @@
 /*
  * PRACTICA VARIABLES PRIMITIVAS
- * Crea un programa que almacene la siguiente información utilizando 
- * el tipo de dato más adecuado:
+ * Crea un programa que almacene la siguiente informaciï¿½n utilizando
+ * el tipo de dato mï¿½s adecuado:
  * Nombre
  * Edad
  * Peso
- * ¿Es estudiange?
+ * Es estudiange?
  * Inicial de apellido
- * Luego imprima toda la información
+ * Luego imprima toda la informacion
  **/
+package variables;
 public class Ejer01 {
 
     public static void main(String[] args) {
@@ -18,9 +19,9 @@ public class Ejer01 {
         boolean estudiante=false;
         char inic_ap='M';
         System.out.println("Mi nombre es: "+nombre);
-        System.out.println("Mi edad es de "+edad+" años");
+        System.out.println("Mi edad es de "+edad+" aÃ±os");
         System.out.println("Tengo una estatura de "+estatura+" mtrs.");
-        System.out.println("¿Soy estudiante?: "+estudiante);
+        System.out.println("Soy estudiante?: "+estudiante);
         System.out.println("La inician de mi apellido es: "+inic_ap);
     }
 }
