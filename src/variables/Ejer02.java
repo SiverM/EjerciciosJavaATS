@@ -1,29 +1,26 @@
 /*;
+ *PRACTICAR VARIABLES, OPERADORES Y TIPOS PRIMITIVOS
  *Declara las siguientes variables:
- *añoActual
- *añoNacimiento
+ *aï¿½oActual
+ *aï¿½oNacimiento
  *Calcula:
  *Edad
- *Edad dentro de 10 años
- *Edad hace 5 años
+ *Edad dentro de 10 aï¿½os
+ *Edad hace 5 aï¿½os
  **/
+package variables;
 public class Ejer02 {
-        
+
     public static void main(String[] args) {
         int anio_act=2026;
         int anio_nac=1985;
         int edad=anio_act-anio_nac;
         int edad_10=edad+10;
         int edad_5=edad-5;
-        System.out.println("Año actual: "+anio_act);
-        System.out.println("Año de nacimiento: "+anio_nac);
+        System.out.println("AÃ±o actual: "+anio_act);
+        System.out.println("AÃ±o de nacimiento: "+anio_nac);
         System.out.println("Edad: "+edad);
-        System.out.println("Dentro de 10 años tendrá: "+edad_10+" años");
-        System.out.println("Hace 5 años tenía: "+edad_5+" años");
-        System.out.println(System.getProperty("java.version"));
+        System.out.println("Dentro de 10 aÃ±os tendra: "+edad_10+" aÃ±os");
+        System.out.println("Hace 5 aÃ±os tenia: "+edad_5+" aÃ±os");
     }
 }
-
-
-
-
