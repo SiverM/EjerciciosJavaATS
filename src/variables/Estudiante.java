@@ -14,7 +14,7 @@ public class Estudiante {
     // ===========================
     static String universidad = "UMSA";
 
-    // Método para mostrar los datos
+    // Metodo para mostrar los datos
     public void mostrarDatos() {
 
         // Variable local
